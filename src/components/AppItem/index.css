@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.app-image {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-image {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+.name {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 16px;
+  }
+}
+
+.app-list-container {
+  list-style-type: none;
+  background-color: white;
+  height: 100px;
+  width: 90px;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-list-container {
+    height: 160px;
+    width: 160px;
+  }
+}
