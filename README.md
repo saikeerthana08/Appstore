@@ -1,4 +1,4 @@
-In this project, let's build an **App Store** by applying the concepts we have learned till now.
+In this project, I build an **App Store** App.
 
 ### Refer to the image below:
 
@@ -18,31 +18,22 @@ In this project, let's build an **App Store** by applying the concepts we have l
 
 </details>
 
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionalities added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- Initially, the **Social** tab should be active and the apps with **Social** as their category should be displayed
+- Initially, the **Social** tab is active and the apps with **Social** as their category is displayed
 - When a value is provided in the search input
-  - The apps in the active category, that include search input value in their name should be displayed
-  - When another tab is clicked, the apps in the corresponding category, that include search input value in their name should be displayed
+  - The apps in the active category, that include search input value in their name are displayed
+  - When another tab is clicked, the apps in the corresponding category, that include search input value in their name are displayed
   - The search should be case insensitive
 - When the search input is empty,
-  - All the apps in the active category should be displayed
-  - When another tab is clicked, the apps in the corresponding category should be displayed
+  - All the apps in the active category is displayed
+  - When another tab is clicked, the apps in the corresponding category is displayed
 - The `AppStore` component is provided with `tabsList`. It consists of a list of tabItem objects with the following properties in each tabItem object
 
   |     Key     | Data Type |
@@ -73,10 +64,10 @@ The app must have the following functionalities
 </details>
 
 <details>
-<summary>Implementation Files</summary>
+<summary>Implemented Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Used these files to complete the implementation:
 
 - `src/components/AppStore/index.js`
 - `src/components/AppStore/index.css`
@@ -84,29 +75,6 @@ Use these files to complete the implementation:
 - `src/components/TabItem/index.css`
 - `src/components/AppItem/index.js`
 - `src/components/AppItem/index.css`
-
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
-
-  ```
-    outline: none;
-  ```
 
 </details>
 
@@ -140,10 +108,3 @@ Use these files to complete the implementation:
 - Bree Serif
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
